@@ -1,0 +1,29 @@
+    {
+    "fields": {
+        "summary": "Main order flow broken 2",
+        "project":
+        {
+        "id": ""
+        },
+        "reporter": {
+        "id": "63039afca4f57644346ab426"
+        },
+        "description":{"type": "doc",
+        "version": 1,
+        "content": [
+            {
+            "type": "paragraph",
+            "content": [
+                {
+                "text": "Order entry fails when selecting supplier.",
+                "type": "text"
+                }
+            ]
+            }
+        ]}
+        ,
+        "issuetype": {
+        "id": ""
+        }
+    }
+    }

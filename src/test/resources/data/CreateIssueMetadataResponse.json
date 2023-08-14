@@ -1,0 +1,109 @@
+{
+    "expand": "projects",
+    "projects": [
+        {
+            "self": "https://katep.atlassian.net/rest/api/3/project/10002",
+            "id": "10002",
+            "key": "MYAC",
+            "name": "MyAccount",
+            "avatarUrls": {
+                "48x48": "https://katep.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422",
+                "24x24": "https://katep.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=small",
+                "16x16": "https://katep.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=xsmall",
+                "32x32": "https://katep.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=medium"
+            },
+            "issuetypes": [
+                {
+                    "self": "https://katep.atlassian.net/rest/api/3/issuetype/10009",
+                    "id": "10009",
+                    "description": "Created by Jira Agile - do not edit or delete. Issue type for a user story.",
+                    "iconUrl": "https://katep.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "untranslatedName": "Story",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10002"
+                        }
+                    }
+                },
+                {
+                    "self": "https://katep.atlassian.net/rest/api/3/issuetype/10010",
+                    "id": "10010",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://katep.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "untranslatedName": "Task",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10002"
+                        }
+                    }
+                },
+                {
+                    "self": "https://katep.atlassian.net/rest/api/3/issuetype/10011",
+                    "id": "10011",
+                    "description": "A problem or error.",
+                    "iconUrl": "https://katep.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "name": "Bug",
+                    "untranslatedName": "Bug",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10002"
+                        }
+                    }
+                },
+                {
+                    "self": "https://katep.atlassian.net/rest/api/3/issuetype/10012",
+                    "id": "10012",
+                    "description": "A collection of related bugs, stories, and tasks.",
+                    "iconUrl": "https://katep.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "untranslatedName": "Epic",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10002"
+                        }
+                    }
+                },
+                {
+                    "self": "https://katep.atlassian.net/rest/api/3/issuetype/10013",
+                    "id": "10013",
+                    "description": "Subtasks track small pieces of work that are part of a larger task.",
+                    "iconUrl": "https://katep.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "name": "Subtask",
+                    "untranslatedName": "Subtask",
+                    "subtask": true,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10002"
+                        }
+                    }
+                },
+                {
+                    "self": "https://katep.atlassian.net/rest/api/3/issuetype/10014",
+                    "id": "10014",
+                    "description": "",
+                    "iconUrl": "https://katep.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+                    "name": "Feature",
+                    "untranslatedName": "Feature",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10002"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
